@@ -1,20 +1,20 @@
-//极简测试=xyq嗅探+采集+bili
+//极简配置=xyq嗅探+采集+bili
 {
+//极简jar
+"spider":"https://ccaibg.github.io/ai/jar/20220822超级精简.jar;md5;b9449cf51a8d4cc5dcddbe4066080b75",
 
-"spider":"https://dabbing2019.github.io/ai/jar/20220822超级精简.jar;md5;b9449cf51a8d4cc5dcddbe4066080b75",
 
 
-
-//频道
+//频道https://ccaibg.github.io/ai/live/01
 "lives":[{"group":"redirect","channels":[{"name":"redirect",
-"urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9hZ2l0LmFpL2NjL2FpL3Jhdy9icmFuY2gvY2MvbGl2ZS8wMQ=="]}]}],
+"urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9jY2FpYmcuZ2l0aHViLmlvL2FpL2xpdmUvMDE="]}]}],
 
 "sites":[
 
 //XYQ嗅探
-{"key": "csp_XYQBiu_凌云视频国内","name": "凌云视频（国内）","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/cc/ai/raw/branch/cc/test/xyq/lingyun.json"},
+{"key": "csp_XYQBiu_凌云视频国内","name": "凌云视频（国内）","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://ccaibg.github.io/ai/test/xyq/lingyun.json"},
 
-{"key": "csp_XYQBiu_凌云视频韩剧","name": "凌云视频（韩剧）","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://agit.ai/cc/ai/raw/branch/cc/test/xyq/lingyun2.json"},
+{"key": "csp_XYQBiu_凌云视频韩剧","name": "凌云视频（韩剧）","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://ccaibg.github.io/ai/test/xyq/lingyun2.json"},
 
 //采集站
 {"key":"北雁资源1","name":"北燕影视","type":1,"api":"https://zy.beiyan.cc:4433/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1,"playUrl":"","categories": ["电影", "国产剧", "港台剧", "日韩剧", "欧美剧", "综艺", "动漫"]},
@@ -25,15 +25,15 @@
 
 
 {"key": "学堂1","name": "儿童乐园","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,
-"ext": "https://agit.ai/cc/ai/raw/branch/cc/res/study/01.json"},
+"ext": "https://ccaibg.github.io/ai/res/bili/01.json"},
 {"key": "学堂2","name": "小学学习","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,
-"ext": "https://agit.ai/cc/ai/raw/branch/cc/res/study/02.json"},
+"ext": "https://ccaibg.github.io/ai/res/bili/02.json"},
 {"key": "学堂3","name": "初中学习","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,
-"ext": "https://agit.ai/cc/ai/raw/branch/cc/res/study/03.json"},
+"ext": "https://ccaibg.github.io/ai/res/bili/03.json"},
 {"key": "学堂4","name": "高中学习","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,
-"ext": "https://agit.ai/cc/ai/raw/branch/cc/res/study/04.json"},
+"ext": "https://ccaibg.github.io/ai/res/bili/04.json"},
 {"key": "bilixq","name": "河南戏曲","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,
-"ext": "https://agit.ai/cc/ai/raw/branch/cc/res/bili/xq.json"},
+"ext": "https://ccaibg.github.io/ai/res/bili/xq.json"},
 
 //卡点
 {"key": "Kunyu77","name": "七七视频","type": 3,"api": "csp_Kunyu77","searchable": 1,"quickSearch": 1,"filterable": 1}
@@ -43,8 +43,8 @@
 //解析接口
 "parses":[
 {"name":"自动选择","type":3,"url":"Demo"},
-//{"name":"Json并发","type":2,"url":"Parallel"},
-//{"name":"Json轮询","type":2,"url":"Sequence"},
+{"name":"Json并发","type":2,"url":"Parallel"},
+{"name":"Json轮询","type":2,"url":"Sequence"},
 
 {"name": "GGTV快速","type": 1,"url": "https://play.fuqizhishi.com/ganggang/API.php?appkey=QQ172598364&url="},
 {"name": "parwix稳定","type": 0,"url": "https://jx.bozrc.com:4433/player/?url="}
@@ -53,7 +53,7 @@
 
 ],
 
-//未知
+//采集类型
 "flags":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],
 
 //解码

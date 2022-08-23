@@ -43,13 +43,19 @@
 //解析接口
 "parses":[
 {"name":"自动选择","type":3,"url":"Demo"},
-{"name":"Json并发","type":2,"url":"Parallel"},
-{"name":"Json轮询","type":2,"url":"Sequence"},
+//{"name":"Json并发","type":2,"url":"Parallel"},
+//{"name":"Json轮询","type":2,"url":"Sequence"},
 
+//json解析
 {"name": "GGTV快速","type": 1,"url": "https://play.fuqizhishi.com/ganggang/API.php?appkey=QQ172598364&url="},
-{"name": "parwix稳定","type": 0,"url": "https://jx.bozrc.com:4433/player/?url="}
 
-
+//嗅探解析
+{"name": "parwix解析","type": 0,"url": "https://jx.bozrc.com:4433/player/?url="},
+{"name": "okjx解析","type": 0,"url": "https://okjx.cc/?url="},
+{"name": "m2090解析","type": 0,"url": "https://m2090.com/?url="},
+{"name": "660e解析","type": 0,"url": "https://660e.com/?url="},
+{"name": "jx云解析","type": 0,"url": "https://jx.ergan.top/?url="},
+{"name": "lecurl解析","type": 0,"url": "https://lecurl.cn/?url="}
 
 ],
 

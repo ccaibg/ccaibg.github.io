@@ -1,0 +1,41 @@
+{
+  "classes":[
+    {
+      "type_name": "坠子",
+      "type_id": "河南坠子"
+    },
+   
+    {
+      "type_name": "豫剧",
+      "type_id": "豫剧"
+    },
+
+   {
+      "type_name": "曲剧",
+      "type_id": "曲剧"
+    },
+   {
+      "type_name": "广场舞",
+      "type_id": "广场舞"
+    },
+   {
+      "type_name": "小品",
+      "type_id": "春晚小品"
+    },
+
+    {
+      "type_name": "花鼓戏",
+      "type_id": "花鼓戏"
+    },
+        {
+      "type_name": "宛梆",
+      "type_id": "宛梆"
+    },
+    {
+      "type_name": "越调",
+      "type_id": "越调"
+    }
+
+
+  ]
+}

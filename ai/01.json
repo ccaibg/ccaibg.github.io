@@ -12,9 +12,9 @@
 "sites":[
 
 //XYQ嗅探
-{"key": "csp_XYQBiu_凌云视频国内","name": "凌云视频（国内）","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://ccaibg.github.io/ai/test/xyq/lingyun.json"},
+{"key": "csp_XYQBiu_凌云视频国内","name": "凌云视频（国内）","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://ccaibg.github.io/ai/res/xyq/lingyun.json"},
 
-{"key": "csp_XYQBiu_凌云视频韩剧","name": "凌云视频（韩剧）","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://ccaibg.github.io/ai/test/xyq/lingyun2.json"},
+{"key": "csp_XYQBiu_凌云视频韩剧","name": "凌云视频（韩剧）","type": 3,"api": "csp_XYQBiu","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": "https://ccaibg.github.io/ai/res/xyq/lingyun2.json"},
 
 //采集站
 {"key":"北雁资源1","name":"北燕影视","type":1,"api":"https://zy.beiyan.cc:4433/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1,"playUrl":"","categories": ["电影", "国产剧", "港台剧", "日韩剧", "欧美剧", "综艺", "动漫"]},
